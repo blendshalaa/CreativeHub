@@ -1,11 +1,28 @@
 "strict"
-document.querySelector('.button-circle').addEventListener('click',function(){
-console.log('You cliked it')
-});
+
 
 
 document.querySelector('.events-webinars').addEventListener('click',function(event){
    event.target.style.backgroundColor='#243F60';
 })
-//improve this event 
+
+let buttonCircle=document.querySelector('.button-circle');
+let circleText=document.querySelector('.circle-text');
+let hiddenDiv=document.querySelector('.hidden-div');
+
+
+
+buttonCircle.addEventListener('click',e=>{
+   buttonCircle.style.display="none";
+   circleText.style.display='none';
+   hiddenDiv.style.display="block";
+
+})
+
+
+
+
+//improve this event
+
+
 
