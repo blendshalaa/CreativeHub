@@ -12,15 +12,73 @@ let hiddenDiv=document.querySelector('.hidden-div');
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 buttonCircle.addEventListener('click',e=>{
    buttonCircle.style.display="none";
    circleText.style.display='none';
    hiddenDiv.style.display="block";
 
 })
+const section=document.querySelector('.section2')
+const headerCircle=document.querySelector('.header-circle-pic')
+const burgerMenu=document.querySelector('.burger-menu');
+const navbar=document.querySelector('.navbar');
+const menuText=document.querySelector('.menu-text')
+burgerMenu.addEventListener('click',function(){
+   burgerMenu.classList.toggle('active')
+   headerCircle.style.display='none';
+   navbar.style.display='block';
+   menuText.style.display='block'
+   section.style.display='none';
+   
+  
+   
+});
 
 
 
+ 
+ 
+ 
+
+
+
+
+
+//cardsevents
+
+const cardData={
+Image:'images/womanpic.png',
+   title:'Card title',
+   description:"Card Description"
+
+}
 
 
 
