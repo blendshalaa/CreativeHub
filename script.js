@@ -13,32 +13,6 @@ let hiddenDiv=document.querySelector('.hidden-div');
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 buttonCircle.addEventListener('click',e=>{
    buttonCircle.style.display="none";
    circleText.style.display='none';
@@ -50,12 +24,15 @@ const headerCircle=document.querySelector('.header-circle-pic')
 const burgerMenu=document.querySelector('.burger-menu');
 const navbar=document.querySelector('.navbar');
 const menuText=document.querySelector('.menu-text')
+
+
 burgerMenu.addEventListener('click',function(){
    burgerMenu.classList.toggle('active')
    headerCircle.style.display='none';
-   navbar.style.display='block';
-   menuText.style.display='block'
    section.style.display='none';
+   navbar.style.display='block'
+   menuText.style.display='block'
+  
    
   
    
