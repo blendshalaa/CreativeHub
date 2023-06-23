@@ -38,6 +38,18 @@ burgerMenu.addEventListener('click',function(){
    
 });
 
+const cardContainer=document.getElementById('cardContainer')
+
+const cardData=[
+  {
+   imageSrc: "./images/womanpic.png",
+   description: "Small Description For The Event",
+   eventName: "FULL NAME OF THE EVENT",
+   buttonLabel: "See More"
+ }
+];
+
+
 
 
  
@@ -50,12 +62,7 @@ burgerMenu.addEventListener('click',function(){
 
 //cardsevents
 
-const cardData={
-Image:'images/womanpic.png',
-   title:'Card title',
-   description:"Card Description"
 
-}
 
 
 
