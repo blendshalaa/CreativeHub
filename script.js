@@ -38,16 +38,16 @@ burgerMenu.addEventListener('click',function(){
    
 });
 
-const cardContainer=document.getElementById('cardContainer')
 
-const cardData=[
-  {
-   imageSrc: "./images/womanpic.png",
-   description: "Small Description For The Event",
-   eventName: "FULL NAME OF THE EVENT",
-   buttonLabel: "See More"
- }
-];
+const viewAllButton=document.querySelector('.viewMore-btn');
+
+viewAllButton.addEventListener('click',function(){
+
+
+
+   
+})
+
 
 
 
