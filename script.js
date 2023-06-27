@@ -39,9 +39,14 @@ burgerMenu.addEventListener('click',function(){
 });
 
 
+
 const viewAllButton=document.querySelector('.viewMore-btn');
+const cardContainer=document.querySelector('cardContainer')
+const cardTemplate=document.querySelector('card-template');
+const hiddenCard=document.querySelector('.hiddencardContainer')
 
 viewAllButton.addEventListener('click',function(){
+hiddenCard.classList.remove('hiddencardContainer');
 
 
 

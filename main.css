@@ -349,7 +349,7 @@ margin-top: -15px;
   color: #0A0A0A;
   margin-top: 120px;
 }
-#cardContainer{
+.cardContainer{
   display: flex;
   justify-content: center;
   gap: 26px;
@@ -363,6 +363,8 @@ position: relative;
  
   width: 384px;
   height: 691px;
+  cursor: pointer;
+  
  
   
 }
@@ -444,4 +446,7 @@ font-weight: 700;
 margin-top: 60px;
 cursor: pointer;
 
+}
+.hiddencardContainer{
+  display: none;
 }
