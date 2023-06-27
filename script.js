@@ -28,10 +28,19 @@ const menuText=document.querySelector('.menu-text')
 
 burgerMenu.addEventListener('click',function(){
    burgerMenu.classList.toggle('active')
-   headerCircle.style.display='none';
-   section.style.display='none';
-   navbar.style.display='block'
-   menuText.style.display='block'
+   if(burgerMenu.classList.contains('active')){
+      headerCircle.style.display='none';
+      section.style.display='none';
+      navbar.style.display='block'
+      menuText.style.display='block'
+
+   }else{
+      headerCircle.style.display='block';
+      section.style.display='block';
+      navbar.style.display='none'
+      menuText.style.display='none'
+   }
+  
   
    
   
