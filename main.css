@@ -454,3 +454,31 @@ cursor: pointer;
   display: none;
  
 }
+
+
+.communityText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  gap: 20px;
+}
+.ComunityH{
+  color: var(--inks-06, #0A0A0A);
+
+
+/* Desktop/Heading 2 */
+font-size: 32px;
+font-family: Montserrat;
+font-weight: 700;
+}
+
+.CommunityP{
+  color: var(--inks-06, #0A0A0A);
+text-align: center;
+
+/* Desktop/Paragraph */
+font-size: 18px;
+font-family: Montserrat;
+}
