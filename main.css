@@ -482,3 +482,65 @@ text-align: center;
 font-size: 18px;
 font-family: Montserrat;
 }
+
+.CirclesAnimation{
+  display: flex;
+  justify-content: center;
+ gap: 52px;
+ margin-top: 96px;
+
+}
+.circle1{
+  width: 135px;
+  height: 135px;
+  flex-shrink: 0;
+  border-radius: 135px;
+background: #A400CD;
+
+
+
+
+}
+.circle2{
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 47px;
+background: linear-gradient(0deg, #3330B6 0%, #3330B6 100%), rgba(164, 0, 205, 0.50);
+
+}
+.circle3{
+  width: 135px;
+height: 135px;
+flex-shrink: 0;
+border-radius: 135px;
+background: #3330B6;
+
+/* Desktop/Card headings */
+
+}
+
+.ux-ui{
+  color: #F3F3F3;
+
+  /* Desktop/Card headings */
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+.product{
+  color: #F3F3F3;
+
+font-size: 4px;
+font-family: Inter;
+
+
+}
+.front-end{
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #F3F3F3;
+
+
+}
