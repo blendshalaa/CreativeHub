@@ -486,6 +486,7 @@ font-family: Montserrat;
 .CirclesAnimation{
   display: flex;
   justify-content: center;
+  align-items: center;
  gap: 52px;
  margin-top: 96px;
 
@@ -506,7 +507,7 @@ background: #A400CD;
   height: 47px;
   flex-shrink: 0;
   border-radius: 47px;
-background: linear-gradient(0deg, #3330B6 0%, #3330B6 100%), rgba(164, 0, 205, 0.50);
+  background: #3330B6;
 
 }
 .circle3{
@@ -521,19 +522,23 @@ background: #3330B6;
 }
 
 .ux-ui{
+  
   color: #F3F3F3;
 
   /* Desktop/Card headings */
   font-size: 20px;
   font-family: Montserrat;
   font-weight: 600;
+text-align: center;
+margin-top: 50px;
 }
-.product{
+.productP{
   color: #F3F3F3;
 
 font-size: 4px;
 font-family: Inter;
-
+text-align: center;
+margin-top: 50px;
 
 }
 .front-end{
@@ -541,6 +546,10 @@ font-family: Inter;
   font-family: Montserrat;
   font-weight: 600;
   color: #F3F3F3;
+  text-align: center;
+  margin-top: 50px;
+
+ 
 
 
 }
