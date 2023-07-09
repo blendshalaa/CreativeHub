@@ -63,7 +63,18 @@ hiddenCard.classList.remove('hiddencardContainer');
 })
 
 
-
+var swiper = new Swiper(".mySwiper", {
+   slidesPerView: 2,
+   spaceBetween: 30,
+   autoplay:{
+      delay:2500,
+      disableONiNTERACTION:false,
+   },
+   pagination: {
+     el: ".swiper-pagination",
+     clickable: true,
+   },
+ });
 
 
  
