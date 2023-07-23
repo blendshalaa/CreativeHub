@@ -711,8 +711,8 @@ line-height: normal;
 
 .lightbulb{
  width: 100%;
- height: auto;
-position: absolute;
+ height: 874px;
+ position: absolute;
  
 }
 .wrapper{
@@ -795,3 +795,44 @@ margin: 16px;
  padding-top: 25%;
 
 }
+.searchbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 596px;
+  height: 54px;
+  background-color: #FFF;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+.email{
+  color: var(--solid-grey-neutral, #A4A4A4);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 16px;
+}
+.sub{
+  display: flex;
+padding: 12px 16px;
+margin-right: 1px;
+
+justify-content: center;
+align-items: center;
+gap: 8px;
+color: var(--inks-01, #FFF);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #068BE9;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+
+

@@ -76,6 +76,10 @@ var swiper = new Swiper(".mySwiper", {
    },
  });
 
+
+ var w = window.innerWidth;
+ console.log(w)
+
  
 
  
