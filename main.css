@@ -848,4 +848,90 @@ border-radius: 10px;
 cursor: pointer;
 }
 
+.slackWrapper{
+  
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.half-circle{
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+max-width: 900px;
+text-align: center;
+right: 15%;
 
+ 
+ 
+}
+.slackWrapper:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--solid-accent-dark, #FAAD01);
+  border-radius: 50% 50% 0 0 ;
+}
+.group{
+  padding-left: 150px;
+  padding-top: 10px;
+}
+.blutext-wrapper{
+position:absolute;
+margin-right: 590px;
+
+}
+
+.blutext{
+  
+position:absolute;
+  display: flex;
+  
+  
+width: 638.912px;
+height: 209px;
+padding: 32px 40px;
+flex-direction: column;
+align-items: flex-end;
+gap: 15px;
+background: var(--gradients-vibrant-blue-subscribe, linear-gradient(226deg, #7D42FF 0%, #08FCFF 100%));
+backdrop-filter: blur(7.5px);
+}
+.bluep1{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Card headings */
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.bluep2{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Card text */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bluep3{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Heading 3 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
