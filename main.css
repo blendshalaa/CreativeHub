@@ -1079,7 +1079,7 @@ gap:5px;
   justify-content: center;
   align-items: center;
   margin-top: 54px;
-  gap: 185px;
+  gap: 250px;
 }
 #footer{
 
@@ -1087,4 +1087,124 @@ gap:5px;
   justify-content: center;
   align-items: center;
   background: var(--solid-secondary-dark, #243F60);
+  height: 410px;
+
+}
+
+.footerH{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Button text */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 20px;
+}
+.footerp1{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Filter/Labels text */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 20px;
+}
+.logosFooter{
+  padding-top: 20px;
+
+}
+.footerlogo{
+  padding: 10px;
+}
+.footerp2{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Button text */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+}
+.emailfooter{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Filter/Labels text */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+text-decoration: none;
+}
+.telnumber{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Filter/Labels text */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+padding-top: 20px;
+}
+.footerh3{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Button text */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.footerp3{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Filter/Labels text */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 20px;
+}
+
+.footerpolicy{
+
+position: absolute;
+display: flex;
+margin-top: 20rem;
+gap: 10px;
+}
+.footer-com{
+  color: var(--inks-01, #FFF);
+text-align: center;
+
+/* Desktop/Paragraph */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-policy{
+  color: var(--inks-01, #FFF);
+text-align: center;
+
+/* Desktop/Button text */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
