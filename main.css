@@ -1069,6 +1069,22 @@ border-style: none;
 
 gap:5px;
 }
+
+
+
+
 .main-footer{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 54px;
+  gap: 185px;
+}
+#footer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--solid-secondary-dark, #243F60);
 }
