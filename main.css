@@ -935,3 +935,140 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+
+.article-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 50px;
+  
+ 
+}
+.mid-circle{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+
+text-align: center;
+
+  width: 665px;
+  height: 665px;
+  border-radius: 665px;
+  border: 6px solid var(--solid-accent-dark, #FAAD01);
+  background: #D9D9D9;
+margin-top: 41px;
+}
+
+.article-header{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Heading 2 */
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+}
+.articleP{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Paragraph */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.article-btn{
+  display: flex;
+  padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+background: var(--solid-secondary-regular, #007BFF);
+border-style: none;
+
+/* Button Shadow */
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+color: #FFF;
+
+/* Desktop/Button text */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.news-article{
+  color: var(--solid-secondary-regular, #007BFF);
+
+/* Desktop/Paragraph */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.article-mid-circle{
+
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Heading 2 */
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.titlenews{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Heading 2 */
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+
+}
+
+
+#articleSection{
+  background: linear-gradient(to right,  #D9D9D9 50%,  #007BFF 50%);
+
+}
+
+.article1-btn{
+display: flex;
+  padding: 16px 32px;
+align-items: flex-start;
+
+border-radius: 10px;
+background: var(--solid-secondary-regular, #007BFF);
+
+/* Button Shadow */
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+color: #FFF;
+
+/* Desktop/Button text */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-style: none;
+
+}
+.article1{
+
+gap:5px;
+}
+.main-footer{
+  background: var(--solid-secondary-dark, #243F60);
+}
