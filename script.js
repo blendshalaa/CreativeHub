@@ -76,6 +76,14 @@ var swiper = new Swiper(".mySwiper", {
    },
  });
 
+ const arrow=document.querySelector('.scroll-arrow');
+
+ arrow.addEventListener('click',function(){
+window.scrollTo({
+   top:0,
+   behavior:"smooth"
+})
+ })
 
  var w = window.innerWidth;
  console.log(w)

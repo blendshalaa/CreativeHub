@@ -959,7 +959,7 @@ text-align: center;
   border-radius: 665px;
   border: 6px solid var(--solid-accent-dark, #FAAD01);
   background: #D9D9D9;
-margin-top: 41px;
+margin-top: 30px;
 }
 
 .article-header{
@@ -1045,7 +1045,7 @@ line-height: normal;
 }
 
 .article1-btn{
-display: flex;
+
   padding: 16px 32px;
 align-items: flex-start;
 
@@ -1063,12 +1063,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 border-style: none;
+margin-top: 20px;
 
 }
-.article1{
 
-gap:5px;
-}
 
 
 
@@ -1183,6 +1181,7 @@ padding-top: 20px;
 
 position: absolute;
 display: flex;
+justify-content: center;
 margin-top: 20rem;
 gap: 10px;
 }
@@ -1207,4 +1206,10 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+.scroll-arrow{
+display: flex;
+margin-top: -25rem;
+
+cursor: pointer;
 }
