@@ -249,7 +249,7 @@ cursor: pointer;
 }
 .burger-menu.active {
 position: absolute;
-  top: 25px; /* Adjust the top position as needed */
+  top: 35px; /* Adjust the top position as needed */
   right: 120px; /* Adjust the right position as needed */
   z-index: 9999; /* Ensure the menu appears on top of other elements */
 }
@@ -267,7 +267,7 @@ display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 margin-right: 120px;
-margin-top: -15px;
+margin-top: -30px;
 
 
 }
@@ -333,9 +333,6 @@ margin-top: -15px;
 }
 .navbar-menu li{
   margin-bottom: 20px;
-}
-.menu-text{
-
 }
 
 
@@ -487,7 +484,7 @@ font-family: Montserrat;
   display: flex;
   justify-content: center;
   align-items: center;
- gap: 52px;
+ gap: 55px;
  margin-top: 96px;
 
 }
@@ -504,25 +501,25 @@ cursor: pointer;
 
 
 }
-/*
 .circle2{
-  width: 47px;
-  height: 47px;
+  width: 50px;
+  height: 50px;
   flex-shrink: 0;
   border-radius: 47px;
-  background: #3330B6;
+  background-color: #3330B6;
   cursor: pointer;
 
+
 }
-*/
+
+
 .circle3{
   width: 135px;
 height: 135px;
 flex-shrink: 0;
+background-color: #3330B6;
 border-radius: 135px;
-background: #3330B6;
-cursor: pointer;
-        transition: all 0.5s ease;
+text-align: center;
 
 /* Desktop/Card headings */
 
@@ -689,7 +686,7 @@ line-height: normal;
 .swiper-pagination{
 
 
-
+display: none;
 
 
 }
@@ -1212,4 +1209,87 @@ display: flex;
 margin-top: -25rem;
 
 cursor: pointer;
+}
+
+
+.aboutUS-H{
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-35%,-75%);
+  text-align: center;
+  color: var(--inks-01, #FFF);
+
+/* Heading BOLD */
+font-family: Montserrat;
+font-size: 43px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 51.6px */
+text-transform: uppercase;
+}
+.aboutUS-P{
+  position: absolute;
+  left: 49%;
+  top: 45%;
+  transform: translate(-35%,-75%);
+  text-align: center;
+  color: var(--inks-01, #FFF);
+text-align: center;
+
+/* Desktop/Heading 3 */
+color: var(--inks-01, #FFF);
+text-align: center;
+
+/* Desktop/Heading 3 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.aboutUS-P2{
+
+  position: absolute;
+  left: 49%;
+  top: 72%;
+  transform: translate(-35%,-75%);
+  text-align: center;
+  color: var(--inks-01, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.main-goal-wrapper{
+  margin-top: 141px;
+  margin-left: 120px;
+
+}
+
+.goal-h1{
+  color: #000;
+
+/* Heading BOLD */
+font-family: Montserrat;
+font-size: 43px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 51.6px */
+text-transform: uppercase;
+}
+.paragraph-goal{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Heading 3 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 25px;
 }
