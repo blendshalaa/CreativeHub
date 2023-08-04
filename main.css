@@ -889,7 +889,7 @@ margin-right: 590px;
 
 .blutext{
   
-position:absolute;
+  position:absolute;
   display: flex;
   
   
@@ -1294,3 +1294,33 @@ font-weight: 600;
 line-height: normal;
 padding-top: 25px;
 }
+
+
+
+.supportlogos{
+margin-top: 76px;
+margin-left: 125px;
+
+}
+.supporters{
+  color: #000;
+
+/* Heading BOLD */
+font-family: Montserrat;
+font-size: 43px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 51.6px */
+text-transform: uppercase;
+margin-top: 76px;
+margin-left: 11rem;
+}
+
+.first-row-support{
+ margin-bottom: 40px;
+}
+.logoSup{
+  padding-left: 50px;
+  cursor: pointer;
+}
+ 

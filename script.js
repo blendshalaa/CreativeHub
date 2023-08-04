@@ -76,7 +76,10 @@ var swiper = new Swiper(".mySwiper", {
    },
  });
 
- const arrow=document.querySelector('.scroll-arrow');
+ document.addEventListener('DOMContentLoaded',function(){
+   const arrow=document.querySelector('.scroll-arrow');
+ 
+ 
 
  arrow.addEventListener('click',function(){
 window.scrollTo({
@@ -84,6 +87,7 @@ window.scrollTo({
    behavior:"smooth"
 })
  })
+});
 
  var w = window.innerWidth;
  console.log(w)
