@@ -2,23 +2,33 @@
 
 
 
-document.querySelector('.events-webinars').addEventListener('click',function(event){
-   event.target.style.backgroundColor='#243F60';
-})
-
-let buttonCircle=document.querySelector('.button-circle');
-let circleText=document.querySelector('.circle-text');
-let hiddenDiv=document.querySelector('.hidden-div');
 
 
 
 
-buttonCircle.addEventListener('click',e=>{
-   buttonCircle.style.display="none";
-   circleText.style.display='none';
-   hiddenDiv.style.display="block";
 
-})
+
+
+// Function to handle the button click event
+function handleButtonClick() {
+   const buttonCircle = document.querySelector('.button-circle');
+   const circleText = document.querySelector('.circle-text');
+   const hiddenDiv = document.querySelector('.hidden-div');
+ 
+   buttonCircle.style.display = "none";
+   circleText.style.display = 'none';
+   hiddenDiv.style.display = "block";
+ }
+ 
+ // Add the event listener to the buttonCircle element
+ const buttonCircle = document.querySelector('.button-circle');
+ if(buttonCircle){
+   buttonCircle.addEventListener('click', handleButtonClick);
+
+ }
+
+
+
 const section=document.querySelector('.section2')
 const headerCircle=document.querySelector('.header-circle-pic')
 const burgerMenu=document.querySelector('.burger-menu');
@@ -50,17 +60,15 @@ burgerMenu.addEventListener('click',function(){
 
 
 const viewAllButton=document.querySelector('.viewMore-btn');
-const cardContainer=document.querySelector('cardContainer')
-const cardTemplate=document.querySelector('card-template');
+const cardContainer=document.querySelector('.cardContainer')
+const cardTemplate=document.querySelector('.card-template');
 const hiddenCard=document.querySelector('.hiddencardContainer')
 
-viewAllButton.addEventListener('click',function(){
-hiddenCard.classList.remove('hiddencardContainer');
-
-
-
-   
-})
+if(viewAllButton){
+   viewAllButton.addEventListener('click',function(){
+      hiddenCard.classList.remove('hiddencardContainer')
+   });
+}
 
 
 var swiper = new Swiper(".mySwiper", {
@@ -68,7 +76,8 @@ var swiper = new Swiper(".mySwiper", {
    spaceBetween: 30,
    autoplay:{
       delay:2500,
-      disableONiNTERACTION:false,
+      disableOnInteraction: false,
+
    },
    pagination: {
      el: ".swiper-pagination",
@@ -89,8 +98,6 @@ window.scrollTo({
  })
 });
 
- var w = window.innerWidth;
- console.log(w)
 
  
 
