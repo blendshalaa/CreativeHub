@@ -1205,10 +1205,11 @@ font-weight: 700;
 line-height: normal;
 }
 .scroll-arrow{
-display: flex;
-margin-top: -25rem;
-
-cursor: pointer;
+  position: absolute;
+  margin-top: -25rem;
+  margin-left: 65rem;
+  
+  cursor: pointer;
 }
 
 
@@ -1324,3 +1325,146 @@ margin-left: 11rem;
   cursor: pointer;
 }
  
+.scroll-arrow1{
+position: absolute;
+margin-top: -25rem;
+margin-left: 65rem;
+
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -30rem;
+ 
+  gap: 25px;
+}
+.container{
+  margin-left:5rem
+}
+
+.blog-h{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Heading 1 */
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.blog-p{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Heading 2 */
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.blog-p2{
+  color: var(--inks-01, #FFF);
+
+/* Desktop/Card headings */
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+
+.main-user-wrapper{
+ margin-top: 158px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 150px;
+
+}
+.main-user-div{
+  position: relative;
+  width: 975px;
+height: 259px;
+flex-shrink: 0;
+border-radius: 0px 42px 24px 0px;
+background: linear-gradient(236deg, #FFF 0%, #DEDFDF 100%);
+}
+.womanselfie{
+  position: absolute;
+  left: -150px;
+}
+.main-user-text{
+ margin-left: 190px;
+ margin-top: 20px;
+
+
+}
+.user-h{
+  color: #000;
+
+  /* Desktop/Heading 3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.user-p{
+  color: #000;
+
+  /* Desktop/Paragraph */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+  
+}
+.user-btn{
+  display: inline-flex;
+ border-style: none;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+background: var(--solid-secondary-regular, #007BFF);
+
+/* Button Shadow */
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+color: #FFF;
+
+/* Desktop/Button text */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+cursor: pointer;
+margin-top: 15px;
+margin-left: 25rem;
+
+
+
+}

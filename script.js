@@ -87,19 +87,28 @@ var swiper = new Swiper(".mySwiper", {
 
  document.addEventListener('DOMContentLoaded',function(){
    const arrow=document.querySelector('.scroll-arrow');
+   
  
  
 
  arrow.addEventListener('click',function(){
 window.scrollTo({
    top:0,
-   behavior:"smooth"
+   behavior:"smooth",
+   
 })
  })
 });
 
 
- 
+
+const arrow1=document.querySelector('.scroll-arrow1')
+arrow1.addEventListener('click',function(){
+   window.scrollTo({
+      top:0,
+      behavior:'smooth'
+   })
+})
 
  
  
