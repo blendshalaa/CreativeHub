@@ -100,15 +100,18 @@ window.scrollTo({
  })
 });
 
-
-
-const arrow1=document.querySelector('.scroll-arrow1')
-arrow1.addEventListener('click',function(){
-   window.scrollTo({
-      top:0,
-      behavior:'smooth'
-   })
+const blogBtn=document.querySelector('.user-btn');
+blogBtn.addEventListener('click',function(){
+   window.location.href='article.html'
 })
+
+
+
+
+
+
+
+
 
  
  

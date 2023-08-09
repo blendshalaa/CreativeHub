@@ -1487,3 +1487,136 @@ margin-top: -20px;
  margin-left: -100px;
 
 }
+.bookcircle{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+padding-left: 79px;
+margin-top: 117px;
+}
+.books-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -23rem;
+ 
+  gap: 10px;
+  color: #F8F8F8;
+}
+.books-p{
+  color: var(--inks-02, #F8F8F8);
+
+/* Desktop/Card text */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.books-h{
+  color: var(--inks-01, #FFF);
+text-align: center;
+
+/* Desktop/Heading 2 */
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.books-name{
+  color: var(--inks-02, #F8F8F8);
+
+  /* Desktop/Paragraph */
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.selected-article{
+  gap: 16px;
+}
+.selected-h1{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Heading 0 */
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.selected-date{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Heading 3 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.largeP{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Paragraph */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cycle-h1{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Heading 1 */
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.lifecycleP{
+  color: var(--inks-06, #0A0A0A);
+
+/* Desktop/Paragraph */
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 32px;
+}
+.autor-text{
+
+  
+  width: 975px;
+height: 259px;
+flex-shrink: 0;
+border-radius: 0px 42px 24px 0px;
+background: var(--inks-02, #F8F8F8);
+border: 1px solid rgb(62, 62, 195);
+}
+.Autor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 229px;
+}
+.autor-p{
+
+  margin-top: 42px;
+}
+.autorimg{
+  position: absolute;
+  left: 5%;
+}
