@@ -100,10 +100,13 @@ window.scrollTo({
  })
 });
 
-const blogBtn=document.querySelector('.user-btn');
-blogBtn.addEventListener('click',function(){
-   window.location.href='article.html'
-})
+const blogBtns=document.querySelectorAll('.user-btn');
+
+for(const blogBtn of blogBtns){
+   blogBtn.addEventListener('click',function(){
+      window.location.href='article.html'
+   })
+}
 
 
 
