@@ -1647,7 +1647,7 @@ font-weight: 600;
 line-height: normal;
 padding-top: 30px;
 }
-.webinar-text {
+.webinar-text2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1656,6 +1656,12 @@ padding-top: 30px;
   gap: 25px;
 
 }
+
+
+
+
+
+
 .selected-webinar-p{
   color: var(--inks-02, #F8F8F8);
 
@@ -1676,6 +1682,7 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
+
 .selected-webinar-p2{
  color: var(--inks-02, #F8F8F8);
 
@@ -1790,4 +1797,46 @@ font-weight: 700;
 line-height: normal;
 cursor: pointer;
 
+}
+
+.panelist-wrapper {
+  position: relative;
+  margin-top: 169px;
+}
+
+.panelistImages {
+
+}
+
+
+
+.panImg,
+.panImg2,
+.panImg3 {
+position: absolute;
+left: 0;
+top: 0;
+
+
+
+  /* Add margin for spacing between images if needed */
+}
+.panImg2,.panImg3{
+transform: translate(15% ,15%);
+}
+.panImg2{
+
+  transform: translate(10%,10%);
+}
+
+.panelist-text-main-div{
+  display: flex;
+width: 1320px;
+height: 405px;
+padding: 39px 103px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 10px;
+background: var(--solid-secondary-dark, #243F60);
 }
