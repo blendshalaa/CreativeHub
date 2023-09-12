@@ -18,6 +18,8 @@ function handleButtonClick() {
    buttonCircle.style.display = "none";
    circleText.style.display = 'none';
    hiddenDiv.style.display = "block";
+
+
  }
  
  // Add the event listener to the buttonCircle element
